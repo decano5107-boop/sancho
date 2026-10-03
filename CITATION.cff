@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "sancho"
+abstract: "Drive Claude Code on your own Mac from Telegram, behind a PreToolUse permission gate with three tiers and one-time approval codes."
+authors:
+  - family-names: "Cano"
+    given-names: "Diego"
+repository-code: "https://github.com/decano5107-boop/sancho"
+license: Apache-2.0
+version: "0.1.0"
+date-released: "2026-09-30"
+keywords:
+  - claude-code
+  - ai-agents
+  - telegram-bot
+  - guardrails
+  - agent-security

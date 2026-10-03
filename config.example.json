@@ -1,0 +1,33 @@
+{
+  "sancho": {
+    "state_dir": "~/.sancho/state"
+  },
+  "gate": {
+    "allowed_roots": ["~/Projects", "~/Documents"],
+    "extra_denied": ["~/Documents/Private"],
+    "net_allow_hosts": [],
+    "safe_scripts": [],
+    "web_search_tier": "free",
+    "ok_ttl_minutes": 10
+  },
+  "projects": {
+    "roots": ["~/Projects"]
+  },
+  "runner": {
+    "timeout_seconds": 300,
+    "idle_hours": 24,
+    "max_turns": 40,
+    "daily_alert": 30
+  },
+  "outbound": {
+    "max_lines": 10,
+    "scrub_patterns": []
+  },
+  "recall": {
+    "exclude_globs": []
+  },
+  "voice": {
+    "tts_language": "english",
+    "tts_voice": "alba"
+  }
+}
